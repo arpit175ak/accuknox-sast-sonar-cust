@@ -1,0 +1,13 @@
+{
+  "environment": "customer-validation",
+  "debug": true,
+  "database": {
+    "ssl_enabled": false,
+    "connection_timeout": 120
+  },
+  "security": {
+    "password_policy_enabled": false,
+    "mfa_required": false,
+    "session_timeout_minutes": 1440
+  }
+}
